@@ -1,6 +1,6 @@
 # How_To_Deploy_Django_on_Windows_server_Using_Apache
 
-## follew STEP
+
 
 ### step 00.
 Download Links
