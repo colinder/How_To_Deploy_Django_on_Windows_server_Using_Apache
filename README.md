@@ -15,9 +15,10 @@ $ httpd.exe -k start
 
 # mod-wsgi 설정값 확인 명령어
 mod_wsgi-express module-config
-
-
+    
+    
 # Apache Django Project conf setting
+```
 LoadFile "c:/python37/python37.dll"
 LoadModule wsgi_module "c:/python37/lib/site-packages/mod_wsgi/server/mod_wsgi.cp37-win_amd64.pyd"
 WSGIPythonHome "c:/python37"
@@ -34,3 +35,4 @@ Alias /static "C:/Users/navar/Desktop/webproject/static/"
 <Directory "C:/Users/navar/Desktop/webproject/static/">
     Require all granted
 </Directory>
+```
